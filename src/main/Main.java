@@ -1,5 +1,5 @@
+package main;
 import entities.Cliente;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
