@@ -7,13 +7,14 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        Cliente[] clientes = new Cliente[6];
+        Cliente[] clientes = new Cliente[7];
         clientes[0] = new Cliente("Carlos Henrique Goes da Rocha", 12345, 220396, 15000);
         clientes[1] = new Cliente("Maria Eduarda Holanda", 23051, 200702, 12000);
         clientes[2] = new Cliente("Maria Vitória", 45698, 142321, 24580);
         clientes[3] = new Cliente("Lucas Eduardo", 96521, 336699, 16890);
         clientes[4] = new Cliente("Luiz Reis", 34569, 879896, 56400);
         clientes[5] = new Cliente("Leandro Marques", 21213, 251211, 18300);
+        clientes[6] = new Cliente("Alexsandro Vicente", 65431, 268841, 23000);
 
 
         boolean sair = false;
