@@ -18,7 +18,6 @@ public class Cliente {
     }
 
     public void depositar(double valor) {
-        DecimalFormat df = new DecimalFormat("#.00");
         saldo += valor;
     }
 
